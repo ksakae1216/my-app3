@@ -9,9 +9,6 @@ cd my-app3
 
 npm install
 
-npm i @angular/core
-
-
 npm start
 
 ## Code scaffolding
