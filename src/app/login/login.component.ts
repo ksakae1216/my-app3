@@ -11,7 +11,7 @@ export class LoginComponent implements OnInit {
 
   logininfo: LoginInfoDef = { loginid: '', password: '' };
 
-  constructor(private loginService: LoginService) { }
+  constructor(public loginService: LoginService) { }
 
   ngOnInit() {
   }

@@ -13,7 +13,7 @@ export class ListService {
   dataList: DataListDef[];
 
   public getData(): DataListDef[] {
-    this.dataList = DATALIST;
+    this.dataList = DATALIST.filter(val => val.id !== 1);
     return this.dataList;
   }
 }
